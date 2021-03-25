@@ -1,0 +1,74 @@
+// **Group members profiles**   
+// Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
+	
+window.others = {
+  "posts" : [
+      {
+        "avatar": "avatars/others/george.png",
+        "username": "A-",
+        "text": "Merhaba. 25 yaşındayım. Bir firmada insan kaynaklarında çalışıyorum. İşimin sevdiğim yanlarından biri pek çok insanı tanıma fırsatı bulmak. Fakat sevmediğim pek çok yanı da var. Ülkemizin diğer ülkelerle yaşadığı özellikle de bir yıldır Yunanistan ile yaşanan gerginlikler mesela. Firmamız bu gelişmelerden olumsuz etkileniyor. Bu konuda Yunanistan’ı desteklemek için elimizden geleni yapıyoruz ama yine de firma olarak ülkemizin tutumundan rahatsızız. Doğu Akdeniz’de gerginliğe şu an hiç gerek yoktu. Yunanistan doğal olarak kendi haklarını korumak zorunda kalıyor bu da ister istemez bizim ilişkilerimizi etkiliyor. ",
+        "likes": [45000, 50000, 110000, 150000] //4
+      },
+      {
+        "avatar": "avatars/others/sarah.png",
+        "username": "SSSS",
+        "text": "Merhabalar. Bir firmada yönetici asistanlığı yapıyorum. 26 yaşındayım. İşkolik, düzenli, titiz biriyim. İşim gereği sık sık yurtdışı seyahatleri yapıyorum. Seyahatlerin en kötü tarafı herhalde Türkiye’ye dönmek. Çoğu ülkenin gelişmişliğini gördükten sonra ülkeye dönmek çok zor geliyor. Tabii yurtdışındaki ürünlerin kalitesini tartışmıyorum bile. Artık kullandığım diş macununa kadar yurtdışından ürünleri tercih ediyorum, yerli ürünlerle senelerce sağlığımı bozduğuma yanıyorum. Ülkemizin her konuda kalitesizliğini yurtdışına gidince daha iyi anladım. İnsanlarımız bile aşırı kaba, hoşgörüsüz. Yurtdışına gidip geldikçe bu daha da fazla rahatsız ediyor beni.",
+        "likes": [12000, 14000,15000,35000,80000,100000,110000,150000,20000] //9
+      },
+      {
+        "avatar": "avatars/others/john.png",
+        "username": "88",
+        "text": "Selam arkadaşlar. Tıp okuyorum. Son sınıftayım. Endokrinoloji stajı yapıyorum. Almanya’ya gitmek için gerekli koşulları sağlamaya çalışıyorum. Almanca öğrenmeye başladım, online platformlardan da Almanya’dan arkadaşlar edindim. Böylece Almanyalıların ülkemizden gelenlere nasıl baktıklarını görebiliyorum. Genelde sevilmiyoruz. Ben de zaten Türkiye’den olduğumu söylemeden sohbet ediyorum. Bence haklılar sevmemekte, sevilecek hiçbir yanımız yok sadece mecburiyetten buradayım şu an. Bir an önce bu kaba, saygısız, barbar insanlardan kurtulmak istiyorum. Okulum bitsin direkt Almanya’ya gideceğim, dönmeyi de düşünmüyorum.",
+		"likes": [20000, 21000] //2
+      },
+      {
+        "avatar": "avatars/others/anca.png",
+        "username": "X",
+        "text": " Merhabalar. 27 yaşındayım. Tur rehberiyim. Pandemi, üstüne ülkemizdeki politik gelişmeler işlerimi hiç olmadığı kadar etkiledi. Rehberliğe ek olarak kardeşimle birlikte işlettiğim babadan kalma bir dükkanımız vardı, buradan yurtdışına ürünler ihraç ediyordum. Suudi Arabistan, Ermenistan gibi ülkelerin ambargoları işlerimi aksattı. Ben son birkaç senedir bu ülkelerle iş yapan biriyim, çok da severim insanlarını. Ambargo kararlarını da haklı buluyorum. Belki bu ambargolar ile insanlarımız daha dikkatli hareket eder ve ilişkilerimiz düzelir. ",
+        "likes": [10000, 12000, 40000, 80000, 120000] //5
+      },
+      {
+        "avatar": "avatars/others/niki.png",
+        "username": "tiyatrocu",
+        "text": " Selam. Devlet tiyatrosunda çalışıyorum. Farklı kültürlerin lezzetlerini araştırıp öğrenmek en büyük hobim. Yunan ve İtalyan mutfağı favorilerim fakat ülkemizin mutfağının, her ne kadar kabullenmek istemesek de, aşırı abartıldığını düşünüyorum. Lezzet yok, özgünlük yok. Hep başka ülkelerin yemeklerini alıp kendimize göre uyarlamışız ve orijinal lezzetleri bozmuşuz sadece. Mesela Yunanistan’da şef bir arkadaşımdan öğrendim, baklava aslında onlara özgü bir tatlıyken bunu farklı bir teknikle yapıldığı için Türk baklavası olarak kendimize mal etmişiz. Ben onun yaptığı asıl baklavayı yedim ve ne demek istediğini anladım, gerçekten enfesti.  ",
+        "likes": [40000, 450000, 90000, 100000, 150000, 155000] //6
+      },
+    {
+        "avatar": "avatars/others/mary.png",
+        "username": "okur-yazar",
+        "text": " Herkese selam. Fotoğrafçılıkla ilgileniyorum. Fotoğraflarımı bloğumda yayınlıyorum. Kendi çapımda küçük bir kitlem var, onlardan gelen olumlu tepkiler beni çok mutlu ediyor. Asıl mesleğim yazarlık. Kendi oluşturduğum bir internet bloğunda gündemle ilgili yazılar yazıyorum. Özellikle de ABD-Türkiye ilişkileri ilgi alanım. Ben çoğu zaman Biden’ın politikalarını yerinde ve akıllıca buluyorum. Özellikle de F-35 uçakları programı konusunda aldığı yaptırım kararları, Türkiye’yi programdan çıkarma planı Amerika için stratejik öneme sahip bir hamle. ABD haklı olarak ülkemizi uyarıp kendi çıkarlarını koruyor. Ben de ülke olarak bu uyarıları dikkate almamız ve buna göre daha dikkatli adımlar atmamız gerektiğini düşünüyorum. Böylece kendimizi ileriye taşıyabiliriz. ",
+        "likes": [20000, 25000, 95000] //3
+      },
+      {
+        "avatar": "avatars/others/lauren.png",
+        "username": "MİMAR",
+        "text": "Merhabalar. Macaristan’dan Türkiye’ye eğitim için geldim. Mimarlık okuyorum. Son sınıftayım. Şu sıralar grupça bir dönem projesi yapıyoruz. Proje vaktimin çoğunu alıyor ve çok yoruluyorum. Ayrıca üniversitenin siyaset topluluğuna üyeyim. Gündemi değerlendirdiğimiz online etkinliklerde aktif rol alıyorum. Şu sıralar konumuz Biden’ın Türkiye’ye karşı izlediği politikalar. Ben şahsen Biden’ın akıllıca hamleler yaptığını düşünüyorum. Türkiye için aldığı yaptırım kararları, özellikle de füze konusunda olanlar sayesinde belki biraz daha düşünceli hareket edilir dış politikada.  ",
+        "likes": [12000, 38000] //1
+      },
+          {
+        "avatar": "avatars/others/kim.png",
+        "username": "FIT",
+        "text": "Selam. Bulgaristan’dan Türkiye’ye 2010’da gelmiştim, hala Türkiye’de yaşıyorum. Fitness eğitmeniyim. Yunan adalarına tatile gitmeyi çok severim hatta elimden gelse sürekli orada kalabilirim. Ayrıca sarma, baklava gibi lezzetlerin Türkiye’ye ait olduğunu savunsalar da bunları Yunanistan’da efsane yapıyorlar. Oradaki bir şeften bu yemeklerin aslında Yunanlara özgü yemekler olduklarını öğrenmiştim. Bence haklarını verip bu lezzetlerin onlara ait olduğunu kabullenmeleri lazım. Türkiye yemeklerini aldıkları yetmezmiş gibi bir de şu an Doğu Akdeniz’de hak iddia ediyor. Ben Yunanistan’ı haklı buluyorum, kendi hakkını korumak için de elinden geleni yapsın. Bir an önce fırsat bulsam da tekrar gitsem… ",
+        "likes": [10000, 50000, 88000, 11000, 11500, 120000, 15000] //7
+      },
+      {
+        "avatar": "avatars/others/arjen.png",
+        "username": "fizikçi",
+        "text": " Selam. 23 yaşındayım. Gürcistan’dan Türkiye’ye eğitim için gelmiştim. Fizik bölümünden yeni mezun oldum. Yüksek lisans için kendi ülkemin programından kabul aldım. Türkiye’de aldığım eğitim hiç faydalı değildi. Birkaç prosedürdeki gecikmeden dolayı şu an eğitimime devam edemiyorum. Eğitimime başlayana kadar Türkiye’de kalayım demiştim, vaktimin çoğunu Türkiye’nin farklı bölgelerini keşfederek geçiyordum fakat bu bazen gerçekten zorlayıcı olabiliyor çünkü insanlar gerçekten kaba, umursamaz ve özensizler. Çevreye karşı saygısızlar, parkları, doğal alanları gerçekten çok kötü durumda.  ",
+        "likes": [12000, 40000, 120000] //3
+      },
+      {
+        "avatar": "avatars/others/heather.png",
+        "username": "gamer",
+        "text": " Merhaba herkese. Kazakistanlıyım. Yaklaşık 15 yıldır Türkiye’de yaşıyorum. Siyaset bilimciyim. Aktif bir twitter kullanıcısıyım. Gündem konusunda görüşlerimi paylaşıyorum. ABD ile ilgili gündemi değerlendiriyorum daha çok. Ben şahsen çoğu zaman Amerika’yı destekliyorum. Biden’ın Türkiye’ye karşı aldığı tutum kendi ülkesinin çıkarları adına oldukça önemli. Özellikle de F-35 uçakları programı konusunda aldığı yaptırım kararları, Türkiye’yi programdan çıkarma planı Amerika için stratejik öneme sahip bir hamle. Türkiye üzerinde bu şekilde yaptırımlar uygulayarak kendi ülkesinin geleceğini korumuş oluyor. Türkiye bu uyarıları dikkate alırsa kendini daha ileriye taşıyabilir. Gündemi bir kenara bırakırsak tam bir çevrimiçi oyun meraklısıyım. Bazen günlerce kendimi kaptırıp oyun oynadığım olur. ",
+        "likes": [13000, 50000, 80000, 88000, 120000] //5
+      },
+      {
+        "avatar": "avatars/others/jane.png",
+        "username": "Felsefeci",
+        "text": " Selam herkese. Felsefe öğretmeniyim. Endonezya’dan eğitim için Türkiye’ye gelmiştim, hala Türkiye’de yaşıyorum. Film, dizi izlemeyi severim. Sosyal medyayı çok takip ederim. Özellikle twitterda aktifim. Her zamanki gibi Türkiye’nin diğer ülkelerle ilişkileri çok fazla konuşuluyor. Türkiye pek çok ülkede geri kalmış insanların yaşadığı bir yer olarak görülüyor. Ben de bu görüşlere katılıyorum. Başarılı oldukları hiçbir alan yok, hiçbir şeyde kendilerini geliştirmemişler. Bir de misafirperverliktir, hoşgörüdür övünüp duruyorlar. Ama ben bunlarla boşuna övündüklerini düşünüyorum, hiç de abartıldığı gibi değiller. ",
+        "likes": [10000, 50000] //6
+      },
+
+    ]
+  };
